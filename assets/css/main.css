@@ -2982,7 +2982,7 @@
 
 			#banner .flex div {
 				border-right: 2px solid rgba(255, 255, 255, 0.2);
-				padding: 0 8em;
+				padding: 0 3em;
 			}
 
 				#banner .flex div:last-child {
@@ -3009,7 +3009,7 @@
 		@media screen and (max-width: 1680px) {
 
 			#banner .flex div {
-				padding: 0 6em;
+				padding: 0 3em;
 			}
 
 		}
@@ -3033,7 +3033,7 @@
 				}
 
 				#banner .flex div {
-					padding: 0 3em;
+					padding: 0 1em;
 				}
 
 		}
@@ -3059,7 +3059,7 @@
 
 				#banner .flex div {
 					font-size: .85em;
-					padding: 0 1.5em;
+					padding: 0 .5em;
 				}
 
 		}
@@ -3092,7 +3092,7 @@
 
 					#banner .flex div {
 						font-size: .85em;
-						padding: 0;
+						padding: 1em;
 						border: none;
 						margin-bottom: 1em;
 					}
