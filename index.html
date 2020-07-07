@@ -41,17 +41,17 @@
 			<div class="flex ">
 
 				<div>
-					<span class="icon fa-graduation-cap"></span>
+					<img src="images/Education.png" alt="Pic 01" />
 					<h3>Education</h3>
 					<p>____________________</p>
 				</div>
 				<div>
-					<span class="icon fa-commenting-o"></span>
+					<img src="images/Media.png" alt="Pic 01" />
 					<h3>Media</h3>
 					<p>____________________</p>
 				</div>
 				<div>
-					<span class="icon fa-users"></span>
+					<img src="images/Partnership.png" alt="Pic 01" />
 					<h3>Partnership</h3>
 					<p>____________________</p>
 				</div>
@@ -74,52 +74,48 @@
 			<div class="flex flex-2">
 				<article>
 					<div class="image round">
-						<img src="images/LOGO2.png" alt="Pic 01" />
+						<img src="images/Education.png" alt="Pic 01" />
 					</div>
 					<header>
 						<h3>Education<br  h3>
 					</header>
-					<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in
-						diam sed arcu. Cras<br />consequat egestas augue vulputate.</p>
+					<p>Researching daily sustainability hapits and finding<br />organizations, documentaries, and more<br />that represent and exemplify sustainability</p>
 					<footer>
 						<a href="#" class="button">Learn More</a>
 					</footer>
 				</article>
 				<article>
 					<div class="image round">
-						<img src="images/pic02.jpg" alt="Pic 02" />
+						<img src="images/Media.png" alt="Pic 02" />
 					</div>
 					<header>
 						<h3>Media<br h3>
 					</header>
-					<p>Pellentesque fermentum dolor. Aliquam quam lectus<br />facilisis auctor, ultrices ut, elementum
-						vulputate, nunc<br /> blandit ellenste egestagus commodo.</p>
+					<p>Distribution of information on sustainability<br />and creative outreach to the everyday<br />person</p>
 					<footer>
 						<a href="#" class="button">Learn More</a>
 					</footer>
 				</article>
 				<article>
 					<div class="image round">
-						<img src="images/pic01.jpg" alt="Pic 01" />
+						<img src="images/Partnership.png" alt="Pic 01" />
 					</div>
 					<header>
 						<h3>Partnership<br /h3>
 					</header>
-					<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in
-						diam sed arcu. Cras<br />consequat egestas augue vulputate.</p>
+					<p>Working with buisinesses and commissions<br />to help educate and promote<br />sustainable ideas</p>
 					<footer>
 						<a href="#" class="button">Learn More</a>
 					</footer>
 				</article>
 				<article>
 					<div class="image round">
-						<img src="images/pic01.jpg" alt="Pic 01" />
+						<img src="images/Policy.png" alt="Pic 01" />
 					</div>
 					<header>
 						<h3>Policy<br /h3>
 					</header>
-					<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in
-						diam sed arcu. Cras<br />consequat egestas augue vulputate.</p>
+					<p>Researching and writing to local and state<br />legislators to help create and change<br />environmental politics</p>
 					<footer>
 						<a href="#" class="button">Learn More</a>
 					</footer>
@@ -132,38 +128,21 @@
 	<footer id="footer">
 		<div class="inner">
 
-			<h3>Get in touch (this will bring you to a separate page upon submission)</h3>
+			<h3>Get in Touch</h3>
 
 			<form action="https://postmail.invotes.com/send"
-				method="post" id="email_form">
+   				 method="post" id="email_form">
 
-				<input type="text" name="subject" placeholder="Subject" />
-				<textarea name="text" placeholder="Message"></textarea>
-				<input type="hidden" name="access_token" value="mgawc5wqpebv0eepcftboa8m" />
-				<!-- return urls can be fully qualified -OR-
-					start with / for root relative -OR-
-					start with . for url relative --> 
-				<input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
-				<input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
-			
-
-				<!-- set the reply-to address -->
-				<!-- <input type="text" name="reply_to"
-							placeholder="Your Email" /> -->
-
-				<!-- to append extra fields, use the extra_ prefix.
-					Entries will be appended to your message body. -->
-				<!-- <input type="text" name="extra_phone_number"
-							placeholder="Phone Number" /> -->
-
-				<!-- to split your message into 160 chars
-					for an sms gateway -->
-				<!-- <input type="hidden"
-							name="sms_format" value="true" /> -->
-			
-				<input id="submit_form" class="button" style="outline:white ;" type="submit" value="Send" />
-				<!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
-			</form>
+    			<input type="text" name="subject" placeholder="Subject" />
+    			<textarea name="text" placeholder="Message"></textarea>
+  				<input type="hidden" name="access_token" value="sicdco5lactl5dilik9vmv21" />
+    			  <!-- return urls can be fully qualified -OR-
+    			     start with / for root relative -OR-
+     			    start with . for url relative --> 
+   				<input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+    <input id="submit_form" type="submit" value="Send" />
+</form>
 
 
 
@@ -177,7 +156,7 @@
 		form.addEventListener("submit", function (e) {
 			setTimeout(function() {
 				submitButton.value = "Sending...";
-				submitButton.disabled = false;
+				submitButton.disabled = true;
 			}, 1);
 		});
 	</script> 
